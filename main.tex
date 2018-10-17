@@ -1,0 +1,211 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Eric}{Allatta}
+\address{600 W 187TH ST APT 31}{New York, NY 10033}{}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{(505) 490-1608}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{eallatta@afsenyc.org}                               % optional, remove / comment the line if not wanted
+\social[twitter]{eallatta}                             % optional, remove / comment the line if not wanted
+\social[github]{taps3}                              % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{headshot}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%            --------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-2\baselineskip}
+
+\section{Experience}
+
+\subsection{Vocational}
+
+\cventry{2012--Present}{Lead Computer Science Teacher}{Academy for Software Engineering}{New York, NY}{}{
+  \begin{itemize}
+  \item Founding faculty member of NYCs first computer science focused high school
+    \item Designed and implemented computer science curriculum across multiple grade levels aligned both with \newline 
+    AP CS A and AP CSP
+    \item Developed integrated computing curriculum aligned with Common Core Mathematics
+    \item Facilitated vertical alignment and mastery skill based learning transition
+    \item Led development and alignment of computer science mastery skills 
+    \item Lead pedagogical transition toward integrated computing across content areas
+  \end{itemize}
+}
+\cventry{2011--2012}{Urban Teacher Resident in Mathematics}{Bronx
+  Cen. for Science and Math.}{Bronx, NY}{}{
+  \begin{itemize}
+  \item Designed and implemented standards-based and Common Core-aligned lessons in Algebra II/Trig
+  \item Integrated technology, media, and web resources into math curriculum
+  \item Completed an inquiry cycle project to enhance assessment in mathematics
+  \end{itemize} 
+}
+\cventry{2007--2011}{Guitar Maker's Apprentice}{Vizcarra Guitars}{Santa Fe, NM}{}{
+  \begin{itemize}
+  \item Studied the art and science of instrument making alongside a
+    master luthier
+  \item Performed high-end classical and electric instrument repair
+    and customization
+  \item Earned journeyman status through achievements in design and
+    construction
+  \end{itemize} }
+
+\subsection{Community Engagement}
+
+\cventry{2012--Present}{Master Teacher}{Math for America}{New York, NY}{}{
+\begin{itemize}
+    \item Early career 2012-2016, Master teacher 2016--Present
+    \item Workshop leader in computer science
+    \begin{itemize}
+        \item Introduction to Recursion
+        \item Introduction to CS
+        \item Advanced Introduction to CS
+        \item Bootstrap:Algebra, Reactive, and Data Science
+    \end{itemize}
+\end{itemize}
+}
+\cventry{Summer 2016}{Workshop Leader}{CS PD Week}{Golden, CO}{}{
+  Led week long workshop for teachers on beta data-science curriculum for the Bootstrap Organization
+  }
+\cventry{2015--2017}{Committee Member}{CSTA PD Sub-committee}{New York, NY}{}{
+Met with subcommittee on monthly video conference. Commented on development of Professional Development Provider Rubric
+}
+\cventry{2014--Present}{Ambassador}{Bootstrap}{New York, NY}{}{
+Represent the Bootstrap curriculum as advocate and workshop leader
+}
+
+\cventry{2013--2016}{Pilot Teacher}{CollegeBoard}{New York, NY}{}{
+Official pilot teacher for the AP Computer Science Principles course
+  \begin{itemize}
+  \item Designed and implemented curriculum aligned with the AP CS Principles curriculum framework
+  \item Explored and implemented a variety of curricula including
+    \begin{itemize}
+    \item Beauty and Joy of Computing
+    \item EarSketch
+    \item Mobile CSP
+    \item Code.org
+    \item Bootstrap
+    \end{itemize}
+  \item Reported student data to CollegeBoard develoment committee
+  \item Attended and presented at semi-annual meetings of pilot educators
+  \end{itemize}
+}
+\cventry{2016--Present}{Consultant}{CollegeBoard}{Various Partners}{}{
+  Led week long AP Summer Institute workshops for teachers to prepare them to teach AP CS Principles
+}
+\cventry{2013--2016}{Moderator}{NYC Foundation for Computer Science (CSNYC)}{New York, NY}{}{
+  \begin{itemize}
+  \item Moderated bi-monthly evening and weekend events for a cross section of the CS education community 
+  \item Collaborated on themes with the CSNYC meetup team on a variety of topics
+  \item Coordinated with speakers and leaders for events
+  \end{itemize}
+}
+\cventry{2012--2013}{Lab Member}{New Visions for Public Schools EDesign Labs}{New York, NY}{}{
+  \begin{itemize}
+  \item Collaborated with educators, technologists, and designers to
+    prototype and incubate digital learning
+  \item Presented field test data to invested members of the NYC
+    education community
+  \end{itemize}
+}
+
+\subsection{Additional Community Engagement}
+\cvitem{2015--present}{Pyret Programming Language Crew Member / Beta Tester}
+\cvitem{Spring 2016}{Presented for NYCDOE CS4All "Differentiation" video
+}
+\cvitem{Fall 2016}{Featured in AP CSP promotional video speaking about the impact of engaging students with data}
+\cvitem{2017-2018}{CSTA Inaugural Excellence in Computer Science Teaching Award Winner}
+\cvitem{July 2016}{CSTA annual conference presenter on Bootstrap pedagogy}
+\cvitem{2014--2016}{Beauty and Joy of Computing, AP CSP, Workshop Leader}
+\cvitem{April 2016}{MfA Teachers Speak Up: Computer Science in NYC Panelist}
+\cvitem{2014--2016}{Tip Author for CS Teaching Tips}
+
+\section{Education}
+\cventry{2011--2012}{Masters in Urban Adolescent Mathematics
+  Education}{City University of New York, Hunter College}{New York,
+  NY}{}{
+  \begin{itemize}
+  \item Masters in education rooted in student data and student
+    centered instructional design
+  \item Aligned and integrated with the New Visions for Public Schools
+    Urban Teacher Residency,
+  \end{itemize}}
+\cventry{2003--2007}{Bachelor of Arts in the Liberal
+  Arts}{St. John's College}{Santa Fe, NM}{}{
+  Comprehensive liberal arts program rooted in the seminal texts of Western Civilization
+  \begin{itemize}
+  \item Double Major: History of Math and Science and Philosophy
+  \item Double Minor: Comparative Literature and Classical Studies
+  \item Ariel Scholarship: Funding the study of the art of guitar
+    making at Vizcarra Guitars, 2007
+  \item Dean's Award: Excellence in Service to the College, 2007
+  \item Community Scholarship: Academic Achievement and Constructive
+    Community Service, 2006
+  \end{itemize}}
+\cvitem{2012--2017}{Earned Masters + 30 throuh additional course work in statistics, information technology, advanced mathematics, and computer science}
+
+\section{Publications}
+\cventry{March 2017}{5 Slides About}{SIGCSE Proceeding}{}{}{
+Presented on pedagogical practice of combining data based programming pedagogy with data exploration pedagogy in the context of AP CS Principles Performance Tasks}
+\cventry{July 2016}{Solving for X and Y  in a School Focused on Math and Computer Science}{EdSurge
+  News}{}{}{}
+\cventry{October 2015}{Yes, any teacher can help the
+  city spread computer science. No, not any training will
+  do}{Chalkbeat}{}{}{}
+\cventry{March 2016}{Technology We Can't Live
+  Without}{SIGCSE Proceedings}{}{}{
+  Presented on the use of Google Apps Scripts to organize student projects}
+  
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\clearpage
+
+\end{document}
